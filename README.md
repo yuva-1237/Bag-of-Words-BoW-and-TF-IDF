@@ -30,9 +30,9 @@ Both representations are evaluated using a **Logistic Regression** classifier on
 ## 📊 Dataset
 
 - **Dataset**: IMDb Movie Reviews Dataset (`dataset/IMDB Dataset.csv`)
-- **Total Samples**: 50,000 reviews
+- **Total Samples**: 5,000 reviews
 - **Classes**: Binary (Positive / Negative)
-- **Split**: 80% Training set (40,000 reviews), 20% Testing set (10,000 reviews) with fixed random seed (`random_state=42`).
+- **Split**: 80% Training set (4,000 reviews), 20% Testing set (1,000 reviews) with fixed random seed (`random_state=42`).
 
 ---
 
@@ -82,7 +82,7 @@ Empirical evaluation on the 10,000 test reviews yielded the following results:
 ```
 Bag-of-Words-BoW-and-TF-IDF/
 ├── dataset/
-│   └── IMDB Dataset.csv       # IMDb 50,000 movie reviews dataset
+│   └── IMDB Dataset.csv       # IMDb 5,000 movie reviews dataset
 ├── models/
 │   ├── bow_model.py           # CountVectorizer + Logistic Regression model pipeline
 │   └── tfidf_model.py         # TfidfVectorizer + Logistic Regression model pipeline
