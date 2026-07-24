@@ -8,7 +8,7 @@ Compare Bag of Words and TF-IDF feature extraction methods for sentiment analysi
 
 IMDb Movie Reviews Dataset
 
-50,000 reviews
+5,000 reviews
 
 Positive / Negative
 
